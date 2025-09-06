@@ -1,23 +1,23 @@
-# Ask the user to type something
-something = input('Type something: ')
+# Pedir ao utilizador para escrever algo
+algo = input('Escreve algo: ')
 
-# Show the primitive type of the input
-print('The primitive type of this value is', type(something))
+# Mostrar o tipo primitivo do valor
+print('O tipo primitivo deste valor é', type(algo))
 
-# Check if it contains only spaces
-print('Only spaces?', something.isspace())
+# Verificar se contém apenas espaços
+print('Só tem espaços?', algo.isspace())
 
-# Check if it is numeric
-print('Is it a number?', something.isnumeric())
+# Verificar se é um número
+print('É um número?', algo.isnumeric())
 
-# Check if it is alphabetic
-print('Is it alphabetic?', something.isalpha())
+# Verificar se é alfabético
+print('É alfabético?', algo.isalpha())
 
-# Check if it is uppercase
-print('Is it uppercase?', something.isupper())
+# Verificar se está em maiúsculas
+print('Está em maiúsculas?', algo.isupper())
 
-# Check if it is lowercase
-print('Is it lowercase?', something.islower())
+# Verificar se está em minúsculas
+print('Está em minúsculas?', algo.islower())
 
-# Check if it is capitalized (title case)
-print('Is it capitalized?', something.istitle())
+# Verificar se está capitalizado 
+print('Está capitalizado?', algo.istitle())
