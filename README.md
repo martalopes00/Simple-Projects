@@ -1,2 +1,2 @@
 # Simple-Projects
-Simple projects I make while learning Python
+This repository contains small Python projects I create while learning programming concepts and practicing coding skills.
