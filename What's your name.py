@@ -1,5 +1,5 @@
-# Ask for the user's name
-name = input('What's your name?: ')
+# Pedir ao utilizador o seu nome
+nome = input('Qual é o teu nome?: ')
 
-# Respond using the name
-print('Nice to meet you,', name + '!')
+# Responder usando o nome
+print('Prazer em conhecer-te,', nome + '!')
