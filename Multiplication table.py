@@ -1,10 +1,10 @@
-# Pedir ao utilizador para inserir um número
-n = int(input('Escreve um número: '))
+# Ask the user to enter a number
+n = int(input('Enter a number: '))
 
-# Mostrar a mensagem da tabuada
-print('A tabuada de {} é:'.format(n))
+# Show the multiplication table message
+print('The multiplication table of {} is:'.format(n))
 
-# Mostrar a tabuada de 1 a 10
+# Show the multiplication table from 1 to 10
 print('{}x1={}'.format(n, n*1))
 print('{}x2={}'.format(n, n*2))
 print('{}x3={}'.format(n, n*3))
